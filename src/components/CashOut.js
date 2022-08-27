@@ -77,7 +77,7 @@ fetchData();
                     setCell('');
                     setAddress('');
                     dispatch({ type: 'EMPTY' })
-                    setSuccessMsg('Your order has been placed successfully. You will be redirected to a quick suggestion form');
+                    setSuccessMsg('Your order has been placed successfully. You will be redirected to a quick suggestion form.');
                     setTimeout(() => {
                         history('/suggestions')
                     }, 750)

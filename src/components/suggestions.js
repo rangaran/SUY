@@ -41,7 +41,7 @@ export const Suggestions = (props) => {
                 })
                 .then(() => {
                     setSuggestion('');
-                    setSuccessMsg('Your suggestion has been noted. Redirecting to main page');
+                    setSuccessMsg('Your suggestion has been noted. Redirecting to main page.');
                     setTimeout(() => {
                         history('/')
                     }, 2000)
