@@ -38,7 +38,7 @@ import { collection, addDoc , doc, setDoc  } from 'firebase/firestore';
     <div className='container'>
             <div className='navbox'>
             <div className='rightside'>
-            <img width={1020} height={500} src={logo} alt="" />
+            <img  src={logo} alt="" />
             </div>
             </div>
             <h2>Sign up</h2>
