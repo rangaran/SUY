@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+
+#SUY (Sustainable Buying)
+#The goal is to make the shopping experience more sustainable. Based on the items you purchase, you gain sustainability points. What better way to do it, when you can get free goodies through points?
+
+
+
+
+# To run the app locally
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
