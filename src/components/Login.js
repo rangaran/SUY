@@ -3,6 +3,7 @@ import { auth } from '../config/Config'
 import { Link } from 'react-router-dom'
 import {useNavigate} from 'react-router-dom';
 import { signInWithEmailAndPassword } from "firebase/auth"
+import logo from '../images/logo.jpg'
 export const Login = (props) => {
     let navigate = useNavigate();
     const [email, setEmail] = useState('');
@@ -27,6 +28,11 @@ export const Login = (props) => {
 
     return (
         <div className='container'>
+             <div className='navbox'>
+            <div className='rightside'>
+                <img width={1020} height={500} src={logo} alt="" />
+            </div>
+            </div>
             <br />
             <h2>Login</h2>
             <br />
@@ -46,6 +52,7 @@ export const Login = (props) => {
             <span>Sign up <Link to="/signup"> here</Link> if you do not have an account.
                 
             </span>
+           
         </div>
     )
 }

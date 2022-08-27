@@ -17,7 +17,7 @@ function Navbar({ user }) {
   return (
     <div className='navbox'>
             <div className='leftside'>
-                <img src={logo} alt="" />
+                
             </div>
             {!user && <div className='rightside'>
                 <span><Link to="signup" className='navlink'>SIGN UP</Link></span>

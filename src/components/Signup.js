@@ -3,6 +3,7 @@ import { auth, db } from '../config/Config'
 import { Route , withRouter} from 'react-router-dom';
 import { Link } from 'react-router-dom'
 import {useNavigate} from 'react-router-dom';
+import logo from '../images/logo.jpg'
 import { createUserWithEmailAndPassword } from "firebase/auth"
 import { collection, addDoc , doc, setDoc  } from 'firebase/firestore';
  export const Signup = (props) => {
@@ -35,7 +36,11 @@ import { collection, addDoc , doc, setDoc  } from 'firebase/firestore';
  
   return (
     <div className='container'>
-      
+            <div className='navbox'>
+            <div className='rightside'>
+            <img width={1020} height={500} src={logo} alt="" />
+            </div>
+            </div>
             <h2>Sign up</h2>
             <br />
             <form autoComplete="off" className='form-group' onSubmit={signup}>
