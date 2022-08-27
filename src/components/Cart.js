@@ -106,7 +106,7 @@ export const Cart = ({ user }) => {
                         </button>
                         </Link>
                         <button className='btn btn-success btn-md' onClick={()=>{ if (totalPoints>300) {
-                toast.info('With '+totalPoints+ ' points, you get'+Math.floor(totalPoints/300)+' free goodie bag/s', {
+                toast.info('With '+totalPoints+ ' points, you get '+Math.floor(totalPoints/300)+' free goodie bag/s', {
                     position: "top-right",
                     autoClose: 2000,
                     hideProgressBar: false,
