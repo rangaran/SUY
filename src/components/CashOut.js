@@ -80,7 +80,7 @@ fetchData();
                     setSuccessMsg('Your order has been placed successfully. You will be redirected to a quick suggestion form');
                     setTimeout(() => {
                         history('/suggestions')
-                    }, 2000)
+                    }, 750)
                 }).catch(err => setError(err.message))
             }
         })
