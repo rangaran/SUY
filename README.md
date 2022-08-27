@@ -1,6 +1,6 @@
 
-#SUY (Sustainable Buying)
-#The goal is to make the shopping experience more sustainable. Based on the items you purchase, you gain sustainability points. What better way to do it, when you can get free goodies through points?
+# SUY (Sustainable Buying)
+The goal is to make the shopping experience more sustainable. Based on the items you purchase, you gain sustainability points. What better way to do it, when you can get free goodies through points?
 
 
 
