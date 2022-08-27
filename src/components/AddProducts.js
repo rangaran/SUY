@@ -59,7 +59,7 @@ export const AddProducts = () => {
                             ProductName: productName,
                             ProductPrice: Number(productPrice),
                             ProductImg: url,
-                            productPoints: Number(productPoints)
+                            ProductPoints: Number(productPoints)
                         })
                        .then(() => {
                             setProductName('');
