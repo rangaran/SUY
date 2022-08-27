@@ -1,0 +1,4 @@
+name = "billhist-worker"
+main = "src/index.js"
+compatibility_date = "2022-08-27"
+account_id = "bba51af7a27ee6a3e04d18cfa0ec3541"

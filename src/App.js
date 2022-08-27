@@ -10,6 +10,7 @@ import {auth,db} from './config/Config'
 import { CartpropsProvider } from './cartprocesses/Cartprops'
 import { Cart } from './components/Cart';
 import { CashOut } from './components/CashOut';
+import { Suggestions } from './components/suggestions';
 import { collection, addDoc , doc, setDoc, query, where, getDocs   } from 'firebase/firestore';
 export class App extends Component {
 
@@ -62,7 +63,8 @@ fetchData();
 
       <Route exact path = '/signup' element = {<Signup/>}/>   
       <Route exact path = '/cartproducts' element = {<Cart user={this.state.user}/>}/>
-      <Route exact path = '/cashout' element = {<CashOut user={this.state.user}/>}/>    </Routes>
+      <Route exact path = '/cashout' element = {<CashOut user={this.state.user}/>}/>   
+      <Route exact path = '/suggestions' element = {<Suggestions user={this.state.user}/>}/>    </Routes>
     </BrowserRouter>
     </CartpropsProvider>
     </ProductscreationProvider>
