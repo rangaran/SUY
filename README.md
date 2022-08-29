@@ -3,7 +3,9 @@
 The goal is to make the shopping experience more sustainable. Based on the items you purchase, you gain sustainability points. What better way to do it, when you can get free goodies through points?
 
 
-
+#Sign up 
+To sign up as a user use any email I'd.
+To sign up as a company use username@company.com 
 
 # To run the app locally
 
